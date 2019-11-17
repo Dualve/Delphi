@@ -1,0 +1,109 @@
+object Form1: TForm1
+  Left = 473
+  Top = 197
+  Width = 521
+  Height = 371
+  Caption = 'Lab 5 Dubodelov A.V. '#8470'10'
+  Color = clTeal
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 32
+    Top = 8
+    Width = 135
+    Height = 18
+    Caption = #1042#1074#1077#1076#1080#1090#1077' '#1089#1090#1088#1086#1082#1091':'
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 32
+    Top = 272
+    Width = 97
+    Height = 33
+    Cursor = crHandPoint
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    Kind = bkClose
+  end
+  object ComboBox1: TComboBox
+    Left = 32
+    Top = 32
+    Width = 441
+    Height = 24
+    Color = clHighlightText
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ItemHeight = 16
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    Sorted = True
+    TabOrder = 1
+    OnDblClick = ComboBox1Click
+    OnKeyPress = ComboBox1KeyPress
+    Items.Strings = (
+      '2 2 0 99 45'
+      '24 999 540 90 '
+      '89 8 1')
+  end
+  object Button1: TButton
+    Left = 32
+    Top = 216
+    Width = 97
+    Height = 33
+    Caption = #1048#1085#1092#1086#1088#1084#1072#1094#1080#1103
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Memo1: TMemo
+    Left = 144
+    Top = 200
+    Width = 329
+    Height = 121
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Memo2: TMemo
+    Left = 32
+    Top = 64
+    Width = 441
+    Height = 129
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+  end
+end

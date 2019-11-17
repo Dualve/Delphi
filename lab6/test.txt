@@ -1,0 +1,7 @@
+Tesla  öåíà: 250000
+Mercedes Benz  öåíà: 70000
+Mercedes Benz  öåíà: 49000
+Chevrolet  öåíà: 45999
+Shkoda  öåíà: 18000
+Jaguar  öåíà: 140000
+Volkswagen  öåíà: 27000
